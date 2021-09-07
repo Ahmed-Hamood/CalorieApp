@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+       <h1 class="title">Calcalories</h1 class="title">
+    <button class="clearAll">Clear All</button>
+    </div>
+  </header>
+
+ 
+    <div class="container">
+       <main>
+            <h2>Add Meal / Food Item</h2>
+            
+            <div class="input-content">
+              <label for="meal">Meal</label>
+            <input type="text" id="meal"> 
+            </div>
+
+            <div class="input-content mar">
+              <label for="meal">Calories</label>
+            <input type="number" id="calories"> 
+            </div>
+            
+            <div class="add-container">
+            <button class="btn add"> <img src="./icons/add.png" alt=""> &nbsp; Add Meal</button>
+            </div>
+           
+            <div class="other-container">
+              <button class="btn update">Update Meal</button>
+              <button class="btn delete">Delete Meal</button>
+              <button class="btn back">Back</button>
+            </div>
+        </main>
+    </div>
+  
+    <div class="container">
+          <section>
+            
+              <h1 class="total-calories">...</h1>
+              <ul id="items-list">
+               <!-- <li id="item-1">Egg
+                <span class="cal">  3000 - Calories</span> 
+                <a class="edit-item" href="">Edit</a>
+               </li> -->
+              </ul>
+            </div>
+
+          </section>
+    </div>
+<script src="./app.js"></script>
+</body>
+</html>

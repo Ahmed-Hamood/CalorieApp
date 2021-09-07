@@ -1,0 +1,190 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+header{
+  background: #16a085;
+  padding: 8px;
+}
+.title{
+  text-align: center;
+  color: aliceblue;
+}
+.clearAll{ 
+  position: absolute;
+  top: -3px;
+  right:0;
+  padding: 12px 33px;
+  background: none;
+  outline: none;
+  border: 1px solid white;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s All;
+}
+.clearAll:hover{
+  background: #dbdbdb60;
+}
+main{
+  margin: 30px 0;
+  padding: 28px;
+  border: 1px solid rgb(194, 194, 194);
+  border-radius: 5px;
+  -webkit-box-shadow: 4px 7px 6px 0px rgba(0,0,0,0.11);
+  -moz-box-shadow: 4px 7px 6px 0px rgba(0,0,0,0.11);
+  box-shadow: 4px 7px 6px 0px rgba(0,0,0,0.11);
+}
+.btn{
+  position: relative;
+  padding: 12px 28px;
+  font-weight: 600;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  color: rgb(241, 241, 241);
+  transition: 0.4s background;
+}
+img{
+  position: absolute;
+  top: 8px;
+  left: 4px;
+  width: 22px;
+  margin-right: 12px;
+}
+h2{
+  font-size: 1.2rem;
+ font-weight: 100;
+ padding-bottom: 12px;
+}
+.input-content{
+  display: inline-block;
+  width: 48%;
+  margin: 12px 0;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.431);
+}
+.mar{
+  margin-left:18px;
+}
+label{
+  font-size: 0.9rem;
+  display: block;
+  color: rgb(145, 145, 145);
+}
+input{
+  font-size: 18px;
+  font-weight: 600;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 6px;
+}
+
+ /* Button Section */
+.add-container{
+  margin-top: 12px;
+  display: block;
+}
+.other-container{
+  margin-top: 12px;
+  display: none;
+}
+
+
+.add{
+  background: #16a085;
+}
+.update{
+  background:#e67e22;
+}
+.delete{
+  background: #cd201f;
+  margin-left: 12px;
+}
+.back{
+  background: #353b48;
+  margin-left: 530px;
+}
+
+.add:hover{
+  background: rgb(4, 223, 168); 
+}
+.update:hover{
+  background: rgb(255, 115, 0); 
+}
+.delete:hover{
+  background: rgb(241, 75, 75); 
+}
+.back:hover{
+  background: rgb(212, 212, 212);
+  color: black;
+}
+ 
+
+
+
+.total-calories{
+  text-align: center;
+}
+
+#items-list{
+  list-style-type: none;
+  margin-top: 22px;
+}
+#items-list li{
+  position: relative;
+  border: 1px solid rgb(211, 210, 210);
+  border-left: 4px solid rgb(1, 99, 1);
+  border-right: none;
+  padding: 12px;
+  margin-bottom: 5px;
+}
+#items-list li a{
+  position: absolute;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 13px;
+  background-color: #e67e22;
+  right:0;
+  top: -0.7px;
+  text-decoration: none;
+  font-weight: 600;
+  height: 103%;
+  width: 100px;
+  transition: 0.4s All;
+}
+#items-list li a:hover{
+  background-color: rgb(255, 115, 0);
+  color: rgb(236, 236, 236);
+  width: 150px;
+}
+
+.cal{
+  position: absolute;
+  background: #487eb0;
+  color: rgb(255, 255, 255);
+  font-style: italic;
+  font-size: 0.8rem;
+  font-weight: 600;
+   left: 200px;
+   top: 7px;
+  padding: 7px 12px;
+  width: 150px;
+  transition: 0.5s All;
+}
+.red{
+  background: #eb2f06;
+}
+ 
+img{
+  color: black;
+}
+
